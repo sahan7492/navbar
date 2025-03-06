@@ -16,7 +16,7 @@ const Calculator = () => {
 
   const handleCalculate = () => {
     try {
-      setResult(eval(input).toString()); // Use math.js for better security
+      setResult(eval(input).toString());
     } catch {
       setResult("Error");
     }
