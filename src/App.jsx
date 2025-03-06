@@ -1,14 +1,14 @@
 import { useState } from 'react'
 
 import './App.css'
-import Sales from './components/Sales'
+import Calculator from './components/Calculator'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-      <Sales></Sales>
+      |<Calculator></Calculator>
     </div>
   )
 }
